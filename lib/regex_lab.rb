@@ -17,6 +17,8 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
       if match.text(/^[A-Z].*[a-zA-Z][.,\/#!$%\^&\*;:{}=\-_`~()]$/)
         return true
+      else 
+        return false
       end
 end
 
